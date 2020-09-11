@@ -84,7 +84,8 @@ curl -s -X PATCH http://localhost:8001/plugins/1e1637df-4718-4c7c-a412-4114ca29a
 
 If you need to read log files, you can use the Docker Dashboard available in the Windows task tray in the bottom right.
 
-References:
+## References
+
 * https://docs.konghq.com/2.1.x/admin-api
 * https://www.jerney.io/secure-apis-kong-keycloak-1 (original guide, little outdated)
 * https://github.com/d4rkstar/kong-konga-keycloak (newer guide, little more involved)
