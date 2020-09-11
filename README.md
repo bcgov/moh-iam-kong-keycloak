@@ -73,7 +73,7 @@ curl -s http://localhost:8001/plugins | json_pp
 
 If you muck up you'll probably need to delete or modify some things:
 
-```
+```bash
 # Resource can be deleted by ID:
 curl -s -X DELETE http://localhost:8001/services/edef33da-96fe-4c3d-8236-f3e35b3a0aaa
 # Note that resources may also be referenced by "name" if you gave them one:
