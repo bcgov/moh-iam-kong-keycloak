@@ -5,10 +5,13 @@ A proof of concept securing HNI services behind Kong integrated with Keycloak.
 
 This is a draft Getting Started guide. I think it's complete, but we'll see. The only prerequisite is Docker.
 
+It uses old versions of Kong and Docker because this guide is based old tutorials.
+
 ## Run the containers
 
 1. git clone the project
 2. cd to the project directory
+3. Run `docker build -t kong:0.14-alpine-oidc docker/kong/`
 3. Run `docker-compose run --rm kong kong migrations bootstrap`
 4. Run `docker-compose up -d`
 
