@@ -1,3 +1,5 @@
+⚠ This project was archived to use a different approach. The plugin this project demonstrates uses the OIDC Authorization Code flow to retrieve a token. We don't need the Gateway to retrieve a token though: the token will be added to the request by the downstream services. Work continues at the [moh-iam-kong-plugin repo](https://github.com/bcgov/moh-iam-kong-plugin).
+
 # moh-iam-kong-keycloak
 A proof of concept securing HNI services behind Kong integrated with Keycloak.
 
